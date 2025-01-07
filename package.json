@@ -1,0 +1,34 @@
+{
+  "name": "produit-ai",
+  "version": "1.0.5",
+  "description": "Aide à la création de fiches produits",
+  "main": "src/index.mjs",
+  "type": "module",
+  "dependencies": {
+    "openai": "^4.77.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Norbert Galifi <norbert@galifi.fr>",
+  "license": "ISC",
+  "keywords": [
+    "openai",
+    "ai",
+    "gpt",
+    "produit",
+    "description",
+    "content-generation",
+    "product-description",
+    "ecommerce",
+    "typescript",
+    "nodejs",
+    "json",
+    "api",
+    "chatgpt",
+    "ia",
+    "automatisation",
+    "seo",
+    "marketing"
+  ]
+}
