@@ -4,11 +4,11 @@ Un package Node.js simple et élégant pour interagir avec l'API OpenAI de mani�
 
 ## ✨ Caractéristiques
 
-- 🚀 Installation facile
-- 💡 API simple et intuitive
-- ⚡ Performances optimisées
-- 🛡️ Gestion des erreurs robuste
-- 📝 Génération de contenu structuré en JSON
+-   🚀 Installation facile
+-   💡 API simple et intuitive
+-   ⚡ Performances optimisées
+-   🛡️ Gestion des erreurs robuste
+-   📝 Génération de contenu structuré en JSON
 
 ## 🔧 Installation
 
@@ -56,16 +56,16 @@ console.log(contenu);
 
 ```javascript
 async function genererContenu() {
-  try {
-    const urls = [
-      "https://exemple.com/produit1",
-      "https://exemple.com/produit2",
-    ];
-    const contenu = await question.contenu(urls);
-    console.log(contenu);
-  } catch (error) {
-    console.error("Erreur:", error);
-  }
+    try {
+        const urls = [
+            "https://exemple.com/produit1",
+            "https://exemple.com/produit2",
+        ];
+        const contenu = await question.contenu(urls);
+        console.log(contenu);
+    } catch (error) {
+        console.error("Erreur:", error);
+    }
 }
 ```
 
@@ -86,16 +86,16 @@ La méthode `contenu` permet de générer automatiquement une description struct
 
 **Paramètres :**
 
-- `urls` : Array de strings - Liste des URLs des produits à analyser
+-   `urls` : Array de strings - Liste des URLs des produits à analyser
 
 **Retourne :**
 Un objet JSON contenant :
 
-- `titre` : Le titre du produit
-- `descriptif` : Une description détaillée
-- `categorie` : La catégorie du produit
-- `emojis` : Un tableau d'emojis
-- `prix` : Le prix du produit (nombre)
+-   `titre` : Le titre du produit
+-   `descriptif` : Une description détaillée
+-   `categorie` : La catégorie du produit
+-   `emojis` : Un tableau d'emojis
+-   `prix` : Le prix du produit (nombre)
 
 **Exemple de réponse :**
 
@@ -111,9 +111,13 @@ Un objet JSON contenant :
 
 Les contributions sont les bienvenues ! N'hésitez pas à :
 
-- Ouvrir une issue
-- Proposer une pull request
-- Suggérer des améliorations
+-   Ouvrir une issue
+-   Proposer une pull request
+-   Suggérer des améliorations
+
+### 📂 Lien GitHub
+
+Vous pouvez accéder au dépôt GitHub ici : [git@github.com:Nunzz/produit-ai.git](git@github.com:Nunzz/produit-ai.git)
 
 ## 📄 Licence
 
